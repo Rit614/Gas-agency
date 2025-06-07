@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking </title>
+     <link rel="shortcut icon" href="gas.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <nav>
+            <div class="logo" >
+                <div class="icon">
+                    <img src="logo1.jpg" alt="" >
+                
+
+                <h1 class="logo1"> Gas Seva </h1>
+            </div>
+        </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a  href="register.html">Register</a></li>
+                <li><a class="active" href="booking.html">Booking</a></li>
+                <li><a href="#appointment">Appointmnet</a></li>
+
+            </ul>
+        </nav>
+        </div>
+        <div id="header">
+    <h1>Welcome to Gas seva Booking portal</h1>
+
+    </div>
+    
+      <div>
+        <label>Payment Option:</label>
+        <select id="payment">
+          <option>Cash on Delivery</option>
+          <option>Upi payment</option>
+          <option>Net banking</option>
+        </select>
+      </div>
+       <div id="booking">
+      <h2>Book a Cylinder</h2>
+      <button class="btn" onclick="bookCylinder()">Book Now</button>
+    </div>
+    <div id="history">
+      <h2>Booking history</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
